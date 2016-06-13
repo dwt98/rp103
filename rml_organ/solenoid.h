@@ -36,7 +36,7 @@ limitations under the License.
 #define OFF_DUTY 0     // means minimum of duty ratio (0%).
 #define IntvalOn 50    // Interval time holding "on" value of duty. on時の電流は50ms保持
 
-                // status of solenoid controll．
+                // status of solenoid control．
 enum {  sOFF = 0,   // solenoid OFF, duty is 0%. オフの状態
         sON,        // solenoid turns OFF to ON, use "on" duty.　オフ→オンの変化時
         sHOLD };    // solenoid holding status ON. use "hold" duty, is less than "on" duty.　オンを保持する状態．ON時よりも少ないdutyでよい．
